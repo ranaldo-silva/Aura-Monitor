@@ -10,7 +10,7 @@ description = 'Demo project for Spring Boot'
 
 java {
 	toolchain {
-		languageVersion = JavaLanguageVersion.of(17)
+		languageVersion = JavaLanguageVersion.of(21)
 	}
 }
 
@@ -25,6 +25,7 @@ dependencies {
 	implementation 'me.paulschwarz:spring-dotenv:3.0.0'
 	implementation 'org.postgresql:postgresql:42.7.3'
 	implementation 'org.springdoc:springdoc-openapi-starter-webmvc-ui:2.6.0'
+
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 	testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
 }
